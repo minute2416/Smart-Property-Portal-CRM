@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Call Center</name>
+    <queueMembers>
+        <users>
+            <user>chatty.00dgl000007v6t8uac.wftq1kgsuzdy@chatter.salesforce.com</user>
+            <user>epic.391c15fffb9b@orgfarm.salesforce.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

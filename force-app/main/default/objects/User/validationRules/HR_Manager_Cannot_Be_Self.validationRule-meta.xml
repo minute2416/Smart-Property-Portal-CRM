@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HR_Manager_Cannot_Be_Self</fullName>
+    <active>true</active>
+    <errorConditionFormula>$User.Id = HR_Manager__c</errorConditionFormula>
+    <errorDisplayField>HR_Manager__c</errorDisplayField>
+    <errorMessage>A user cannot be their own HR Manager.</errorMessage>
+</ValidationRule>
